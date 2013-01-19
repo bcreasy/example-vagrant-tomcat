@@ -1,4 +1,4 @@
 base:
   '*':
-    - tomcat6.tomcat6
+    - tomcat7.tomcat7
     - pipeweb.pipeweb

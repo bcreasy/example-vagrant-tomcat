@@ -1,10 +1,10 @@
 pipeweb:       
       
   file.managed:
-    - name: /etc/tomcat6/Catalina/localhost/pipeweb.xml
+    - name: /etc/tomcat7/Catalina/localhost/pipeweb.xml
     - source: salt://pipeweb/pipeweb.xml
-    - user: tomcat6
-    - group: tomcat6
+    - user: tomcat7
+    - group: tomcat7
     - mode: 644
     - require:
-      - pkg: tomcat6
+      - pkg: tomcat7
